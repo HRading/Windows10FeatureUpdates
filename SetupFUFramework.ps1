@@ -55,7 +55,7 @@ Param (
     [string]$SiteCode = "PS1",
     [string]$SiteServer = "cm01.corp.osdclinic.com",
     [string]$ApplicationFolderName = "FUApplication",
-    [string]$ApplicationSourceRoot = "\\cm01.corp.osdclinic.com\Sources$",
+    [string]$ApplicationSourceRoot = "\\cm01.corp.osdclinic.com\Sources$\SW",
     [string]$NetworkLogPath = "\\cm01.corp.osdclinic.com\DeployLogs$\FeatureUpdateLogs",
 
     #Unless you change the default script names or paths, you don't need to edit these.
