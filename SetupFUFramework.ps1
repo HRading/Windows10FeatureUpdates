@@ -53,14 +53,14 @@
 [cmdletbinding()]
 Param (
     [string]$SiteCode = "PS1",
-    [string]$SiteServer = "CM01.ASD.NET",
+    [string]$SiteServer = "cm01.corp.osdclinic.com",
     [string]$ApplicationFolderName = "FUApplication",
-    [string]$ApplicationSourceRoot = "\\CM01.ASD.NET\Media",
-    [string]$NetworkLogPath = "\\CM01.ASD.NET\FeatureUpdateLogs",
+    [string]$ApplicationSourceRoot = "\\cm01.corp.osdclinic.com\Sources$",
+    [string]$NetworkLogPath = "\\cm01.corp.osdclinic.com\DeployLogs$\FeatureUpdateLogs",
 
     #Unless you change the default script names or paths, you don't need to edit these.
     [string]$FUFilesGUID = (New-Guid).Guid.ToString(),
-    [string]$PublisherName = "A Square Dozen",
+    [string]$PublisherName = "OSDClinic",
     [string]$ApplicationName = "Feature Update - Client Content",
     [string]$FUTempPath = "C:\~FeatureUpdateTemp",
     [string]$LogPath = "C:\Windows\CCM\Logs",
